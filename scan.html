@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scan Face</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h2>Scanning Face...</h2>
+
+    <img src="{{ url_for('video') }}" width="100%">
+
+    <br><br>
+    <a href="/"><button>Back</button></a>
+</div>
+
+</body>
+</html>

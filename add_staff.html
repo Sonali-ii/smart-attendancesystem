@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Staff</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+<h2>Register Staff</h2>
+
+<form method="POST" enctype="multipart/form-data">
+
+    <input type="password" name="password" placeholder="Admin Password" required>
+    <input type="text" name="name" placeholder="Name" required>
+    <input type="text" name="staff_id" placeholder="Staff ID" required>
+    <input type="text" name="department" placeholder="Department" required>
+
+    <label>Upload Images (Optional)</label>
+    <input type="file" name="images" multiple>
+
+    <button type="submit">Register</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
