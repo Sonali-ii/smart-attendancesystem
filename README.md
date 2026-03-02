@@ -1,23 +1,23 @@
-# 🚀 Smart Staff Attendance System
+#  Smart Staff Attendance System
 
 An AI-based Smart Attendance System built using Flask and OpenCV (LBPH Face Recognition) that enables automated staff attendance through real-time face recognition.
 
 ---
 
-## 🔥 Features
+##  Features
 
-- 🎥 Live Webcam Integration (inside browser)
-- 🧠 Real-Time Face Recognition (LBPH)
-- 🗂 Manual Image Upload or Webcam Registration
-- 🔐 Admin Authentication for Staff Registration
-- 🗄 SQLite Database Integration
-- 📊 Attendance Logging with Date & Time
-- 🚫 Duplicate Attendance Prevention
-- 🎨 Modern Responsive UI
+-  Live Webcam Integration (inside browser)
+- Real-Time Face Recognition (LBPH)
+-  Manual Image Upload or Webcam Registration
+-  Admin Authentication for Staff Registration
+-  SQLite Database Integration
+-  Attendance Logging with Date & Time
+-  Duplicate Attendance Prevention
+-  Modern Responsive UI
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - Python
 - Flask
@@ -27,5 +27,5 @@ An AI-based Smart Attendance System built using Flask and OpenCV (LBPH Face Reco
 
 ---
 
-## 📂 Project Structure
+
 
